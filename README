@@ -1,0 +1,14 @@
+Snowball is a web-based application that streamlines the process of offering content in return for a "favor".  In other words, if you're a content provider, you may want to allow the public to download a product, but only if the first carry out some action that promotes the file.  For example, you may have recently written an e-book that you want to offer as a free download but you want readers to first tweet about the book before downloading.
+
+Snowball is built in a modular way, so that the "favors" (called plugins) can be easily written, enabled, and disabled.  Each download option generally corresponds to an interface to a web-based API.  For example, the Twitter plugin might call Twitter's api, authenticate the user, make a post for them, and make their account follow another account.  The plugins are written in such a way that they can be enabled or disabled by adding or removing a single line of code in the plugins.php file.
+
+Snowball is made with the following ideals:
+1) Sometimes it's better to offer things for free, as long as it helps you become more famous
+2) Any content distribution system can be circumvented, and that's not terribly important if the content is free
+3) It should be easy to create, add, and remove plugins so that Snowball can be used with various content types
+
+Snowball is written in PHP and the ability to create custom .htaccess files and access to a MySQL server.
+
+A demonstration of Snowball can be found at http://www.colinraffel.com/snowball/download, where the content being provided is Snowball itself!
+
+The main repository for Snowball is https://github.com/colinraffel/Snowball
