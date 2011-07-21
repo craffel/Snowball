@@ -12,3 +12,9 @@ Snowball is written in PHP and requires the ability to create custom .htaccess f
 A demonstration of Snowball can be found at http://www.colinraffel.com/snowball/download, where the content being provided is Snowball itself!
 
 The main repository for Snowball is https://github.com/colinraffel/Snowball
+
+Plenty of information about plugins, installation, configuration, etc. can be found at https://github.com/colinraffel/Snowball/wiki
+
+Snowball is currently in "beta", which means that aside from having bugs, you'll also need to do a tiny bit of PHP editing yourself, and if you make a mistake, there is not a lot of error-checking.  So if things are breaking, triple check the edits and configuration you did.
+
+Installation instructions can be found in the INSTALL file in the snowball root directory.
