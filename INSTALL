@@ -1,0 +1,12 @@
+To install Snowball:
+
+0) Upload the Snowball directory to your webserver.  You might have already done this.  You can name it anything you want.
+1) Consolidate your "product" (whatever you want people to download) into a single file - you can zip it, or it may just be one file as-is.  Upload it to the files directory.  Remember the filename - you'll need it in the next step.
+2) Edit config.php and enter all of the information requested.  Each variable has accompanying comments to explain its purpose.
+3) Edit plugins.php - at the bottom of the file are a series of lines like
+   include("facebook/facebook.php");
+   Comment out all those lines which include plugins you don't want to use.
+4) For each plugin you want to use, edit its file (for example, facebook/facebook.php).  At the top of each plugin file is a series of lines that populate the plugin's configuration array - fill them out.
+5) Run install.php - you can do this in your browser, at http://www.yourdomain.com/the/place/you/installed/snowball/install.php  If it fails, you can try running the listed SQL commands in a MySQL client.
+6) Delete install.php.
+7) Edit style.css to make it look like you want, and upload a custom header (found in images/header).
