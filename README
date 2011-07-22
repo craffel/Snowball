@@ -9,7 +9,7 @@ Snowball is made with the following ideals:
 
 Snowball is written in PHP and requires the ability to create custom .htaccess files and access to a MySQL server.
 
-A demonstration of Snowball can be found at http://www.colinraffel.com/snowball/download, where the content being provided is Snowball itself!
+A demonstration of Snowball can be found at http://www.colinraffel.com/software/snowball/download, where the content being provided is Snowball itself!
 
 The main repository for Snowball is https://github.com/colinraffel/Snowball
 
