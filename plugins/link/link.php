@@ -1,5 +1,11 @@
 <?
 
+/*********************
+ * MAKE SURE YOU RUN THIS PLUGIN'S install.php FIRST BEFORE USING!
+ * IT IS LOCATED AT http://yoursnowball.com/install/location/plugins/link/install.php
+ * Run it from your browser, then delete the install.php file.
+ **********************/
+
 global $linkConfig;
 // List the URLs that are acceptable links.
 // Be sure to include URLs with and without www.
