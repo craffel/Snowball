@@ -185,7 +185,7 @@ class Lastfm extends Plugin
     // If the album is length-1, don't give any choice
     if (count($tracks) == 1)
     {
-      $description = '<a href="' . $config['url'] . '?plugin=soundcloud&lastfmTrack=' . urlencode($tracks[0]['name']) . '">Click here</a> to log into Last.fm and love and scrobble "' . $tracks[0]['name'] . '".';
+      $description = '<a href="' . $config['url'] . '?plugin=lastfm&lastfmTrack=' . urlencode($tracks[0]['name']) . '">Click here</a> to log into Last.fm and love and scrobble "' . $tracks[0]['name'] . '".';
     }
     else
     {
